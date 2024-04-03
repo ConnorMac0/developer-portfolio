@@ -1,37 +1,37 @@
 export default [
     {
         title: 'Chapter Tracker',
-        imgUrl: './dist/assets/ChapterTrackerImg.png',
+        imgUrl: './public/assets/ChapterTrackerImg.png',
         stack: ['Python','Pandas','Google Sheets'],
         link: 'https://github.com/ConnorMac0/ChapterTracker',
     },
     {
         title: 'Deep Fake Voice Detection',
-        imgUrl: './dist/assets/DeepFakeVoice.png',
+        imgUrl: '/developer-portfolio/public/assets/DeepFakeVoice.png',
         stack: ['Python','Tensor Flow','Sklearn'],
         link: 'https://github.com/ConnorMac0/DeepFakeAudioDetection',
     },
     {
         title: 'Developer Portfolio',
-        imgUrl: './dist/assets/PortfolioImg.png',
+        imgUrl: './developer-portfolio/assets/PortfolioImg.png',
         stack: ['React', 'Tailwind','Vite'],
         link: '',
     },
     {
         title: 'BlackJack',
-        imgUrl: './dist/assets/BlackJackImg.png',
+        imgUrl: './developer-portfolio/public/assets/BlackJackImg.png',
         stack: ['Python', 'Py Torch','MatPlot'],
         link: 'https://github.com/ConnorMac0/BlackJack',
     },
     {
         title: 'Find My Shelter',
-        imgUrl: './dist/assets/FindMyShelterImg.png',
+        imgUrl: '/assets/FindMyShelterImg.png',
         stack: ['HTML', 'PHP', 'Google APIs'],
         link: 'https://github.com/ConnorMac0/FindMyShelter',
     },
     {
         title: 'Tic-Tac-Toe',
-        imgUrl: './developer-portfolio/public/assets/tictactoeImg.png',
+        imgUrl: './assets/tictactoeImg.png',
         stack: ['C++', 'Minimax', 'AI'],
         link: 'https://github.com/ConnorMac0/tic-tac-toe',
     },
