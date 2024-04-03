@@ -29,4 +29,10 @@ export default [
         stack: ['HTML', 'PHP', 'Google APIs'],
         link: 'https://github.com/ConnorMac0/FindMyShelter',
     },
+    {
+        title: 'Tic-Tac-Toe',
+        imgUrl: '/assets/tictactoeImg.png',
+        stack: ['C++', 'Minimax', 'AI'],
+        link: 'https://github.com/ConnorMac0/tic-tac-toe',
+    },
 ]
