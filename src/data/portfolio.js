@@ -31,7 +31,7 @@ export default [
     },
     {
         title: 'Tic-Tac-Toe',
-        imgUrl: './dist/assets/tictactoeImg.png',
+        imgUrl: './public/assets/tictactoeImg.png',
         stack: ['C++', 'Minimax', 'AI'],
         link: 'https://github.com/ConnorMac0/tic-tac-toe',
     },
