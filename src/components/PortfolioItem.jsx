@@ -7,7 +7,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
             rel="noopener noreferer"
             className="border-2 border-stone-900 dark:border-stone-300 rounded-md overflow-hidden">
             <img src={imgUrl}
-                 alt="portfolio"
+                 alt="portfolio item"
                  className="w-full h-36 md:h-48 object-cover cursor-pointer"
             />
             <div className="w-full p-4">
