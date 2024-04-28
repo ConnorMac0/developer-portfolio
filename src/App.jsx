@@ -24,14 +24,24 @@ function App() {
     }
   }, [theme]);
 
+  const [isVisible, setIsVisible] = useState(false);
+  
+  useEffect(() => {
+    // Set isVisible to true after component is mounted
+    setIsVisible(true);
+  }, []);
+
   return (
-    <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen 
-    font-inter">
+    <div className="bg-white dark:bg-black text-black dark:text-white min-h-screen">
       <div className='max-w-5xl w-11/12 mx-auto'>
-        <Intro />
-        <Portfolio />
-        <Contact />
-        <Footer />
+        <div className={`transition-opacity delay-500 ease-in ${isVisible ? 'opacity-1' : 'opacity-0'}`}>
+          <Intro />
+        </div>
+        <div className={`transition-opacity delay-1000 ease-in ${isVisible ? 'opacity-1' : 'opacity-0'}`}>
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </div>
   )

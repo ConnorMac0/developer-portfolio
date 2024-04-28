@@ -19,8 +19,8 @@ export default [
     },
     {
         title: 'BlackJack',
-        imgUrl: './assets/BlackJackImg.png',
-        stack: ['Python', 'Py Torch','MatPlot'],
+        imgUrl: './assets/blackjack.png',
+        stack: ['Python', 'PyTorch','MatPlot'],
         link: 'https://github.com/ConnorMac0/BlackJack',
     },
     {
