@@ -2,7 +2,7 @@ export default [
     {
         title: 'Chapter Tracker',
         imgUrl: './assets/ChapterTrackerImg.png',
-        stack: ['Python','Pandas','Google Sheets'],
+        stack: ['Python','Pandas','Tkinter'],
         link: 'https://github.com/ConnorMac0/ChapterTracker',
     },
     {
