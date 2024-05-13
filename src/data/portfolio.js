@@ -37,7 +37,7 @@ export default [
     },
     {
         title: "Conway's Game of Life",
-        imgUrl: './assets/game-of-life-img.png',
+        imgUrl: './assets/gol-img.png',
         stack: ['React', 'CSS', 'HTML'],
         link: 'https://ConnorMac0.github.io/game-of-life',
     },
