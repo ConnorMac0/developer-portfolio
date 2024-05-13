@@ -35,4 +35,10 @@ export default [
         stack: ['C++', 'Minimax', 'AI'],
         link: 'https://github.com/ConnorMac0/tic-tac-toe',
     },
+    {
+        title: "Conway's Game of Life",
+        imgUrl: './assets/game-of-life-img.png',
+        stack: ['React', 'CSS', 'HTML'],
+        link: 'https://ConnorMac0.github.io/game-of-life',
+    },
 ]
